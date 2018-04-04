@@ -9,6 +9,8 @@
 #include "jnumber.h"
 #include "jstring.h"
 
+#include <stdio.h>
+
 namespace jparsers
 {
 
