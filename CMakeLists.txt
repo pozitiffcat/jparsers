@@ -5,7 +5,7 @@ project(stanal)
 set(CMAKE_BUILD_TYPE debug)
 
 set(S_JSON_SRC_LIST
-    "s_json.cpp"
+    "jparsers.cpp"
     "jvalue.cpp"
     "jnull.cpp"
     "jboolean.cpp"

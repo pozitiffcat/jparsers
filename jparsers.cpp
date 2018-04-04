@@ -1,4 +1,4 @@
-#include "s_json.h"
+#include "jparsers.h"
 
 #include <algorithm>
 
@@ -9,7 +9,7 @@
 #include "jnumber.h"
 #include "jstring.h"
 
-namespace s_json
+namespace jparsers
 {
 
 bool is_end_of_stream(std::istream &stream);

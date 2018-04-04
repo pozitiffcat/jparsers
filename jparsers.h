@@ -1,12 +1,12 @@
-#ifndef S_JSON_H
-#define S_JSON_H
+#ifndef S_JPARSERS_H
+#define S_JPARSERS_H
 
 #include <iostream>
 
 class jobject;
 class jarray;
 
-namespace s_json
+namespace jparsers
 {
 
 jobject *read_object(std::istream &stream);
@@ -14,5 +14,5 @@ jarray *read_array(std::istream &stream);
 
 }
 
-#endif // JDOCUMENT_H
+#endif // S_JPARSERS_H
 
